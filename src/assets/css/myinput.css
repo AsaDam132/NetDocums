@@ -1,0 +1,128 @@
+#myInput {
+    /* background-image: url('/css/searchicon.png'); */
+    /* background-image: url(''); */
+    /* Add a search icon to input */
+    background-position: 10px 12px;
+    /* Position the search icon */
+    background-repeat: no-repeat;
+    /* Do not repeat the icon image */
+    width: 100%;
+    /* Full-width */
+    font-size: 16px;
+    /* Increase font-size */
+    padding: 12px 20px 12px 40px;
+    /* Add some padding */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    margin-bottom: 12px;
+    /* Add some space below the input */
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    /* Add a border to all links */
+    margin-top: -1px;
+    /* Prevent double borders */
+    background-color: #f6f6f6;
+    /* Grey background color */
+    padding: 12px;
+
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove default text underline */
+    font-size: 18px;
+    /* Increase the font-size */
+    color: black;
+    /* Add a black text color */
+    display: block;
+    /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+    /* Add a hover effect to all links, except for headers */
+}
+
+
+#myInput {
+    box-sizing: border-box;
+    /* background-image: url('searchicon.png'); */
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border-bottom: 1px solid #ddd;
+    width: 70%; /* Full width */
+    position: fixed;
+    top:1%;   
+}
+
+.mymain{
+    margin-top: 30px;
+}
+
+
+#myInput:focus {
+    outline: 3px solid #ddd;
+}
+
+.dropdown {
+    /* position: relative; */
+    /* display: inline-block; */
+}
+
+.dropdown-content {
+    /* display: block; */
+    position: absolute;
+    background-color: #f6f6f6;
+    font-size: 15px;
+    min-width: 230px;
+    /**
+    overflow: auto;
+    **/
+    width: 100%;
+    border: 1px solid #ddd;
+    
+    z-index: 999999;
+    
+}
+
+.dropdown-content li a {
+    text-decoration: none;
+}
+
+.dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    list-style: none;
+    /* display: block; */
+    /* position: absolute; */
+    background-color: #f6f6f6;
+    min-width: 230px;
+    /*
+    overflow: auto;
+    */
+    border: 1px solid #ddd;
+    z-index: 99999999;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
